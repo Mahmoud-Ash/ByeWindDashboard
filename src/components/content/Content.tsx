@@ -48,7 +48,7 @@ const Content = () => {
           <Card
             key={card.id}
             card={card}
-            className={`col-span-1 md:col-span-4 ${
+            className={`col-span-1 md:col-span-4 min-[1400px]:col-span-2 ${
               i % 2 ? "bg-bg3" : "bg-bg4"
             }`}
           />

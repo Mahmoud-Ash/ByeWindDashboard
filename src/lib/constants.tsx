@@ -693,7 +693,7 @@ export const cards = [
   {
     id: 2,
     title: "Visits",
-    number: 3671,
+    number: 6671,
     perc: -0.03,
   },
   {

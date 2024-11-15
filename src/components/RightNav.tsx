@@ -12,7 +12,7 @@ const RightNav = ({ className }: { className?: string }) => {
       />
       <aside
         className={twMerge(
-          "hidden xl:flex flex-col gap-4 p-4 border-l border-hover w-[280px] duration-500 peer-checked/r:translate-x-full ",
+          "hidden xl:flex flex-col gap-4 p-4 border-l border-hover w-[280px] duration-500 peer-checked/r:translate-x-full peer-checked/r:w-0  peer-checked/r:px-0",
           className
         )}
       >
